@@ -1,0 +1,143 @@
+/******/
+/*BASE*/
+/******/
+
+h2 {
+    margin: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/********/
+/*HEADER*/
+/********/
+
+#header_border {
+    background: linear-gradient(#0096FF, #0096FF, #0091FE, #027FFF, #006FFF, #006AFE);
+    color: white;
+    box-shadow: 12px 2px 11px -1px rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 3;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header_border_2 {
+    background: linear-gradient(#3D3D3D, #414141);
+    color: white;
+    height: 60px;
+    box-shadow: 12px 2px 11px -1px rgba(0,0,0,0.75);
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+#header_border_2 h2 {
+    margin: 0px 0px 0px 70px;
+}
+
+#title_header {
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 70px;
+}
+
+#btn_container {
+    display: flex;
+    align-items: center;
+    margin: 0px 70px 0px 0px;
+}
+
+#btn-header-login{
+    background: linear-gradient(#0090FE, #0187FE, #0282FF);
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px 10px 0px 0px;
+}
+
+#btn-header {
+    background: linear-gradient(#444444, #3C3C3C, #383838, #353535);
+    border: none;
+    outline: none;
+    color: white;
+    height: 40px;
+    width: 23vh;
+}
+
+/******/
+/*MAIN*/
+/******/
+#home_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+#home_wrapper p {
+    text-align: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main {
+    padding: 0px;
+}
+
+/********/
+/*FOOTER*/
+/********/
+
+footer {
+    background-color: #1E1E1E;
+    color: #B4B1AC;
+}
+
+footer p {
+    color: #848280;
+    font-size: small;
+    font-weight: 100;
+    margin: 10px 0px 35px 70px;
+    
+}
+
+i {
+    color: white;
+    padding: 0px 20px 0px 0px;
+}
+
+#footer_container_img {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 0px 70px;
+}
+ 
+#container_img_badge {
+    margin: 0px 70px 0px 0px;
+}
+
+#container_img_badge img {
+    width: 100px ;
+}
+
+#container_img_socialmedia {
+    padding: 0px 0px 45px 0px;
+}
+
+#text {
+    padding: 25px 0px 0px;
+    margin: 0px 0px 0px 70px;
+}
